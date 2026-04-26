@@ -2,7 +2,9 @@
 
 A polished, modern Tic-Tac-Toe game built with vanilla HTML, CSS, and JavaScript. Designed to feel like a premium indie game — not a textbook exercise.
 
-![XOXO Game Preview](assets/preview.png)
+
+Game Link: http://127.0.0.1:5500/index.html
+
 
 ---
 
@@ -84,37 +86,6 @@ All sounds are generated at runtime using the **Web Audio API** — zero externa
 - `win` — ascending 4-note fanfare
 - `draw` — flat triangle tone
 - `lose` — descending sawtooth
-
----
-
-## 🌿 Git & GitHub Setup
-
-### Initialise Git locally (first time)
-```bash
-cd xoxo-game
-git init
-git add .
-git commit -m "feat: initial project setup — HTML, CSS, JS scaffolding"
-```
-
-### Push to GitHub
-```bash
-# Create a new repo on github.com first, then:
-git remote add origin https://github.com/YOUR_USERNAME/xoxo-game.git
-git branch -M main
-git push -u origin main
-```
-
-### Suggested Commit Message Convention
-```
-feat: add 2-player mode and board rendering
-feat: implement minimax AI for hard difficulty
-feat: add SVG win-line animation
-feat: add Web Audio sound effects
-style: polish dark/light theme toggle
-fix: prevent AI move on game-over state
-docs: write README with setup instructions
-```
 
 ---
 
